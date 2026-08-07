@@ -1,0 +1,20 @@
+{
+  "name": "zpt-cleanup",
+  "interface": {
+    "displayName": "ZPT Cleanup"
+  },
+  "plugins": [
+    {
+      "name": "zpt-cleanup-kit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zpt-cleanup-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

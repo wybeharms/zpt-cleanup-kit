@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZPT Cleanup Kit"
+  short_description: "Safely audit and tidy a Mac"
+  default_prompt: "Use $start to safely audit and tidy this Mac."

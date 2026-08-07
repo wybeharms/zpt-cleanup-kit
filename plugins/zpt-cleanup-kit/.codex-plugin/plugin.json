@@ -1,0 +1,40 @@
+{
+  "name": "zpt-cleanup-kit",
+  "version": "1.0.0",
+  "description": "A guided, approval-gated macOS cleanup and organization journey by ZPT Partners.",
+  "author": {
+    "name": "ZPT Partners",
+    "email": "wybe@zptpartners.com",
+    "url": "https://zptpartners.com"
+  },
+  "homepage": "https://zptpartners.com",
+  "repository": "https://github.com/wybeharms/zpt-cleanup-kit",
+  "keywords": [
+    "cleanup",
+    "macos",
+    "storage",
+    "applications",
+    "folders",
+    "maintenance",
+    "audit"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ZPT Cleanup Kit",
+    "shortDescription": "Safely audit and tidy a Mac.",
+    "longDescription": "Choose a small cleanup, free storage, organize selected folders, or run a full approval-gated macOS audit.",
+    "developerName": "ZPT Partners",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://zptpartners.com",
+    "defaultPrompt": [
+      "Start the ZPT Cleanup Kit.",
+      "Find a few safe ways to free storage on this Mac.",
+      "Run a read-only audit of this Mac."
+    ]
+  }
+}

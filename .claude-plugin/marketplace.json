@@ -1,0 +1,24 @@
+{
+  "name": "zpt-cleanup",
+  "owner": {
+    "name": "ZPT Partners",
+    "email": "wybe@zptpartners.com",
+    "url": "https://zptpartners.com"
+  },
+  "description": "Safe, guided computer maintenance by ZPT Partners.",
+  "plugins": [
+    {
+      "name": "zpt-cleanup-kit",
+      "displayName": "ZPT Cleanup Kit",
+      "source": "./plugins/zpt-cleanup-kit",
+      "description": "A guided, approval-gated macOS journey for removing a few stale applications, freeing storage, organizing selected folders, or performing a full system audit.",
+      "author": {
+        "name": "ZPT Partners",
+        "email": "wybe@zptpartners.com",
+        "url": "https://zptpartners.com"
+      },
+      "homepage": "https://zptpartners.com",
+      "keywords": ["cleanup", "macos", "storage", "applications", "folders", "maintenance", "audit"]
+    }
+  ]
+}

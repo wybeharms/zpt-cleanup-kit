@@ -1,0 +1,12 @@
+{
+  "name": "zpt-cleanup-kit",
+  "version": "1.0.0",
+  "displayName": "ZPT Cleanup Kit",
+  "description": "A guided, approval-gated macOS cleanup and organization journey by ZPT Partners.",
+  "author": {
+    "name": "ZPT Partners",
+    "email": "wybe@zptpartners.com",
+    "url": "https://zptpartners.com"
+  },
+  "homepage": "https://zptpartners.com"
+}
