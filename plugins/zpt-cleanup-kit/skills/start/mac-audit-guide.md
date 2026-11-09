@@ -91,6 +91,8 @@ Classify cache-like paths by function:
 
 For project caches, verify Git tracking, ignore rules, lockfiles, active builds, and open files. Removing an exact `.next` or `node_modules/.cache` child never authorizes removing the surrounding source or dependency tree.
 
+For an approved cache investigation, read [Cache Candidates On macOS](cache-candidates.md) as needed. It distinguishes package downloads from installed environments, Spotify web caches from offline media, Claude Desktop web caches from agent state, and inactive installer payloads from active updaters. Example paths are candidates to inspect, not preapproved removal targets. Preserve explicit exclusions and other running agent sessions.
+
 ## Module F: Folder structure and duplicates
 
 Start with top-level counts and sizes. Read deeper only where a naming collision, large allocation, scattered copy, or unclear owner justifies it.

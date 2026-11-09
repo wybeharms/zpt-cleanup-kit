@@ -1,6 +1,6 @@
 # ZPT Cleanup Kit
 
-Version 1.0, August 2026.
+Version 1.0.1, November 9th, 2026.
 
 ## First response contract
 
